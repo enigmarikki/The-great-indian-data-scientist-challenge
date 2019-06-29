@@ -6,14 +6,14 @@ For any kind of analysis of spend data, it is important that all invoices be cla
 Example, an invoice having an item description of “Mobile Bills” may be classified into “Telecom” product category.
 
 ## Data Description:
-The given csv file had the following description
-<br>
+The given csv file had the following description.
+
 |Column|Expansion|Description|
 |------|------|------|
 |Inv_ID|Invoice ID|Unique number representing Invoice created by supplier/vendor|
 |Vendor Code|Vendor ID|Unique number representing Vendor/Seller in the procurement system|
-|GL_Code|Account’s Reference ID| 
-|Inv_Amt|Invoice Amount| 
+|GL_Code|Account’s Reference ID|------|
+|Inv_Amt|Invoice Amount|------|
 |Item Description|Description of Item Purchased|Example: “Corporate Services Human Resources Contingent Labor/Temp Labor Contingent Labor/Temp Labor”|
 |Product Category|Category of Product for which Invoice is raised|A pseudo product category is represented in the dataset as CLASS-???, where ? is a digit.|
 
